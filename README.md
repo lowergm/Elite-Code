@@ -1,6 +1,6 @@
 # Elite-Code
 
-Este app é um simples editor de códigos para celular, feito por mim, os seus arquivos não estão aqui, pois eu não quero colocar 😃
+Este app é um simples editor de códigos para celular, feito por mim.
 
 Link para download:
 
