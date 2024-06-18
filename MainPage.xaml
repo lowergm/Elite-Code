@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+	xmlns:local="clr-namespace:Elite_Code_1_1_3"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="Elite_Code_1_1_3.MainPage">
+	<ScrollView>
+		<VerticalStackLayout
+		Padding="20,0"
+		Spacing="10.0">
+		
+		<Label
+	    Text="Qual linguagem está usando" />
+	    <HorizontalStackLayout>
+		<Entry
+		x:Name="lang" />
+		<Button
+		Text="Continuar" />
+		</HorizontalStackLayout>
+		<Label
+		Text="Escreva o código abaixo"/>
+		<Editor
+		x:Name="cod"
+		HeightRequest="470"
+		Background="black"
+		TextColor="red" />
+		<Button
+		x:Name="mostcod"
+		Text="Mostrar o código"
+	    Clicked="Mostrarcod" />
+		<Label
+		x:Name="codmost"
+		Text=""
+		TextColor="red" />
+		<Label
+		Text="Escreva o nome do arquivo abaixo" />
+		<HorizontalStackLayout>
+		<Entry
+		x:Name="nomearq" />
+		<Button
+		x:Name="salvararq"
+		Text="Salvar o arquivo"
+		Clicked="salvararqui" />
+		</HorizontalStackLayout>
+	    <Label
+	    x:Name="msgsalvo" />
+	    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+		
